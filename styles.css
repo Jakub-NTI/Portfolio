@@ -26,25 +26,25 @@ body {
 
 .profileborder {
     background-color: rgba(0, 23, 26, 0.95);
-    width: 27.05vw;
+    width: 24vw;
     height: 47.73888889vh;
     margin-top: 2.351851852vh;
     margin-left: 1.942708333vw;
     margin-right: 1.942708333vw;
-    border-radius: 7.125rem;
+    border-radius: 4.275rem;
     display: flex;
+    align-self: center;
 }
 
 .profile {
-    background-image: url(images/Man4.png);
     width: 26.1421875vw;
     height: 46.35vh;
     margin-left: 0.453125vw;
+    margin-right: 0.453125vw;
     margin-top: 0.6944444444vh;
-    background-repeat: no-repeat;
-    background-size: 26.1421875vw 46.35vh;
-    border-radius: 7.375rem;
+    margin-bottom: 0.6944444444vh;
     display: flex;
+    justify-content: center;
 }
 
 .aboutmetitle {
@@ -158,7 +158,34 @@ body {
 
 .socials {
     background-color: rgba(0, 26, 48, 0.9);
-    width: 15.625vw;
+    width: 17.65046296vw;
     height: 9.259259259vh;
     border-radius: 1.3125rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blankbox {
+    width: 0vw;
+    height: 0vh;
+    display: flex;
+}
+
+.gmail {
+    width: 5.787037037vw;
+    height: 7.407407407vh;
+    display: flex;
+}
+
+.facebook {
+    width: 4.6875vw;
+    height: 8.333333333vh;
+    display: flex;
+}
+
+.twitter {
+    width: 4.6875vw;
+    height: 8.333333333vh;
+    display: flex;
 }
